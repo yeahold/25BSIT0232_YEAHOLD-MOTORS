@@ -1,0 +1,89 @@
+body {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-image: url(images/bmw-x5.jpg);
+    background-size: cover;
+     background-position: center;
+    background-attachment: fixed;
+background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
+}
+.bg-light{
+     background-image: url(images/bmw-x5.jpg);
+       background-size: cover;
+     background-position: center;
+    background-attachment: fixed;
+    backdrop-filter: blur( 8px);
+    color: rgb(250, 243, 243);
+       }    
+.ms-auto{
+    
+     background-position: center;
+    background-attachment: fixed;
+backdrop-filter: blur( 8px);
+height: 100px;
+color: rgb(60, 59, 59);
+
+}
+.container-py-5{
+       background-size: cover;
+     background-position: center;
+    background-attachment: fixed;
+backdrop-filter: blur( 8px);
+height: 100vh;
+color: rgb(250, 243, 243);
+       
+}
+
+.index-body{
+       background-image: url(images/bmw-x5.jpg);
+       background-size: cover;
+     background-position: center;
+    background-attachment: fixed;
+    backdrop-filter: blur( 8px);
+     background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
+    }
+.navbar-brand {
+    background-color: #0fe0c4;
+     background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
+    font-size:50px ;
+     font-weight: 800px
+     ;
+}
+.collapse navbar-collapse{
+    font-size:50px ;
+     font-weight: 800;
+  
+    opacity: 0.8;
+    background-color: #db074e;
+    
+}
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), 
+                url('https://source.unsplash.com/1600x900/?luxury-car') no-repeat center center/cover;
+    height: 100vh;
+    color: rgb(8, 195, 188);
+    display: flex;
+    align-items: center;
+    opacity: 1;
+ 
+}
+.card {
+    transition: all 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2) !important;
+}
+.dashboard-card {
+    border: none;
+    border-radius: 15px;
+    background-color: #616364;
+}
+.btn-motor {
+    background: #07c3c3;
+    color: rgb(38, 32, 87);
+}
+.btn-motor:hover {
+    background: #0cd0d0;
+    transform: scale(1.05);
+}
